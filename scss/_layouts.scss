@@ -1,0 +1,32 @@
+@use '_vars.scss';
+
+body {
+  padding: 0px;
+  border-bottom: 3px dashed vars.$color-primary;
+  padding-bottom: vars.$margin-standard;
+}
+
+.page-content {
+  padding: vars.$margin-standard;
+}
+
+// Navigation
+
+.navigation {
+  background-color: #218c8c;
+  padding: vars.$margin-standard;
+}
+
+.navigation-menu {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: vars.$margin-standard;
+}
+
+// Contact
+
+.contact-page {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: vars.$margin-standard;
+}
